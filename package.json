@@ -1,0 +1,28 @@
+{
+  "name": "alexusginie",
+  "version": "1.0.0",
+  "description": "Alexus Messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandaliadhaval/Alexus_Messenger_Bot.git"
+  },
+  "keywords": [
+    "Messenger",
+    "Alexus"
+  ],
+  "author": "Dhaval Mandalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandaliadhaval/Alexus_Messenger_Bot/issues"
+  },
+  "homepage": "https://github.com/mandaliadhaval/Alexus_Messenger_Bot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}
