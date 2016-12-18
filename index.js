@@ -13,10 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 // Process application/json
 app.use(bodyParser.json())
 
-// Index route
-app.get('/', function (req, res) {
-    res.send('my_voice_is_my_password_verify_me')
-})
+
 
 // for Facebook verification
 app.get('/webhook/', function (req, res) {
